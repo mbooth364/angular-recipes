@@ -1,3 +1,13 @@
-/**
- * Created by mikebooth on 4/26/17.
- */
+import { Ingredient } from '../shared/ingredient.model';
+
+export class Recipe {
+  public name: string;
+  public description: string;
+  public imagePath: string;
+
+  constructor(name: string, desc: string, imagePath: string) {
+    this.name = name;
+    this.description = desc;
+    this.imagePath = imagePath;
+  }
+}

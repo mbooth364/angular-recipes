@@ -1,3 +1,4 @@
-/**
- * Created by mikebooth on 4/26/17.
- */
+export class  Ingredient {
+  constructor(public name: string, public amount: number) {
+  }
+}
